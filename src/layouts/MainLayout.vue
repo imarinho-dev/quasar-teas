@@ -2,9 +2,9 @@
   <q-layout view="hHh lpR fFf">
     <q-header elevated class="bg-green-6 text-white">
       <q-toolbar>
-        <q-toolbar-title>
+        <q-toolbar-title class="uppercase">
           <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg" />
+            <q-icon name="emoji_food_beverage" size="md" />
           </q-avatar>
           Chá
         </q-toolbar-title>
