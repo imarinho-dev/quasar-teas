@@ -24,12 +24,14 @@
           v-for="{
             ID,
             Name,
+            Image,
             Description,
             Benefits,
             Contraindication,
           } in teaMenu"
           :key="ID"
           :name="Name"
+          :image="Image"
           :description="Description"
           :benefits="Benefits"
           :contraindications="Contraindication"

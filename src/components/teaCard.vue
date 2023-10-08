@@ -3,10 +3,7 @@
     class="max-w-sm transition-all duration-150 ease-in hover:drop-shadow-lg"
   >
     <q-card-section>
-      <q-img
-        class="rounded-borders"
-        src="https://cdn.quasar.dev/img/parallax2.jpg"
-      >
+      <q-img class="rounded-borders" :src="props.image">
         <div class="text-h6 absolute-bottom text-center">
           {{ props.name }}
         </div>
@@ -61,6 +58,7 @@
 <script setup>
 const props = defineProps({
   name: String,
+  image: String,
   description: String,
   benefits: Array,
   contraindications: Array,
